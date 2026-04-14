@@ -87,7 +87,7 @@ add_action('wp_footer', function () {
 
     ?>
     <div class="wow-partner-feed" style="padding: 40px 20px; background: #f5f5f5; border-top: 1px solid #e0e0e0;">
-        <h3 style="text-align: center; font-size: 18px; margin-bottom: 20px;">Hello World</h3>
+        <h3 style="text-align: center; font-size: 18px; margin-bottom: 20px;">Koduję z kotem</h3>
         <?php if (!empty($posts) && is_array($posts)): ?>
             <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; max-width: 1200px; margin: 0 auto;">
                 <?php foreach ($posts as $post):
